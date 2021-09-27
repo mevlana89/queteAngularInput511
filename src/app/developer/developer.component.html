@@ -1,0 +1,6 @@
+<p>developer works!</p>
+
+<p> Le dev {{ developer3?.firstName }} {{ developer3?.lastName }} à les compétance suivante : </p>
+<div *ngFor="let currentSkill of skills" >
+    <app-skill [skill] = "currentSkill"></app-skill>
+</div>
